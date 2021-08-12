@@ -247,6 +247,7 @@ async function getGlobalData(ethPrice, oldEthPrice) {
       query: GLOBAL_DATA(),
       fetchPolicy: 'cache-first',
     })
+    console.log(result)
     data = result.data.uniswapFactories[0]
 
     // fetch the historical data

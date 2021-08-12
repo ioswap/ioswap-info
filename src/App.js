@@ -104,7 +104,11 @@ function App() {
 
   // show warning
   const showWarning = headBlock && latestBlock ? headBlock - latestBlock > BLOCK_DIFFERENCE_THRESHOLD : false
-
+  // console.log(globalData)
+  // console.log(globalData &&
+  //   Object.keys(globalData).length > 0 &&
+  //   globalChartData &&
+  //   Object.keys(globalChartData).length > 0)
   return (
     <ApolloProvider client={client}>
       <AppWrapper>

@@ -1373,6 +1373,11 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@io-swap/token-list@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@io-swap/token-list/-/token-list-1.0.3.tgz#b461b56a3fdfbc0efc468c5e77246beb7b6a9cba"
+  integrity sha512-G0ehRhWZRhuxdgELgE73lcaHTVTf7Nbu65623mplH4yHfxqy5XHuYq6ORlzJETvjYp0N6Cp/cWxi9I5SsP0QTQ==
+
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.9.0.tgz#79b1bc06fb74a8cfb01cbdedf945584b1b9707f0"
@@ -2224,11 +2229,6 @@
   dependencies:
     "@typescript-eslint/types" "4.28.5"
     eslint-visitor-keys "^2.0.0"
-
-"@uniswap/token-lists@^1.0.0-beta.15":
-  version "1.0.0-beta.25"
-  resolved "https://registry.yarnpkg.com/@uniswap/token-lists/-/token-lists-1.0.0-beta.25.tgz#e4279cf2581b297723d82eafd1bed35273070f07"
-  integrity sha512-XemgUs8YiYP7Xci+Wb8vPSnyxV9aTO6J5XLPzhZmgDFO1RY5JMnB0As8PJFia3Pg9JSRZ7+AahzxowPYhnUVWw==
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
